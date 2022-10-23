@@ -1,0 +1,16 @@
+domain: kkk777-7.github.io
+layout:
+- go.kubebuilder.io/v3
+projectName: foo-controller-kubebuilder
+repo: github.com/kkk777-7/foo-controller-kubebuilder
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: kkk777-7.github.io
+  group: samplecontroller
+  kind: Foo
+  path: github.com/kkk777-7/foo-controller-kubebuilder/api/v1alpha1
+  version: v1alpha1
+version: "3"
